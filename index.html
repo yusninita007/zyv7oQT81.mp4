@@ -1,94 +1,177 @@
 
+
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>She got buns, bows, and boldness… I’m obsessed 😍</title>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: ##564d4d;
-            padding: 20px;
-        }
-        .video-title {
-            font-size: 1.7em;
-            font-weight: bold;
-            margin-bottom: 18px;
-            letter-spacing: 1px;
-        }
-        .video-wrapper {
-            position: relative;
-            width: 100%;
-            max-width: 720px;
-            margin: 0 auto;
-        }
-        video {
-            width: 100%;
-            max-width: 100%;
-            border-radius: 10px;
-            display: block;
-        }
-        .ad-banner-inside {
-            position: absolute;
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 320px;
-            height: 50px;
-            background: rgba(255,255,255,0.92);
-            border-radius: 10px 10px 0 0;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 2;
-            overflow: hidden;
-        }
-        @media (max-width: 400px) {
-            .ad-banner-inside {
-                width: 95vw;
-                height: 40px;
-                font-size: 0.85em;
-            }
-        }
-    </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>  POV: Confidence loud, balance gone </title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    text-align: center;
+    padding: 16px;
+}
+
+/* Title */
+.video-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+/* Video Container (portrait lock) */
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 420px;       /* desktop: tidak kegedean */
+    margin: 0 auto;
+    aspect-ratio: 9 / 16;  /* KUNCI portrait */
+    background: #000;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+/* Video */
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    background: #000;
+    border-radius: 14px;
+
+    /* Disable user interaction fullscreen */
+    pointer-events: auto;
+}
+
+/* HILANGKAN FULLSCREEN BUTTON */
+video::-webkit-media-controls-fullscreen-button {
+    display: none !important;
+}
+video::-webkit-media-controls-picture-in-picture-button {
+    display: none !important;
+}
+video::-webkit-media-controls-enclosure {
+    overflow: hidden;
+}
+
+/* Ad overlay */
+.ad-overlay {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+    height: 50px;
+    z-index: 10;
+}
+.ad-top {
+    top: 10px;
+}
+
+/* Mobile optimization */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .video-wrapper {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+}
+</style>
 </head>
+
 <body>
-    <div class="video-title">Your Ultimate Video Gallery for Viral Content<span aria-label="smile" role="img"></span></div>
-    <div class="video-wrapper">
-        <div class="ad-banner-inside" id="ad-inside-video"></div>
-        <video controls poster="https://cdn.videy.co/57xB8HSm1.mp4">
-            <source src="https://cdn.videy.co/zyv7oQT81.mp4" type="video/mp4">
-        </video>
-        </div>
-    <script type="text/javascript">
-        var adDiv = document.getElementById('ad-inside-video');
-        var s1 = document.createElement('script');
-        s1.type = 'text/javascript';
-        s1.text = "atOptions = { 'key' : '4a2fc598ebbbdbc95eb3bef73798c939', 'format' : 'iframe', 'height' : 50, 'width' : 320, 'params' : {} };";
-        adDiv.appendChild(s1);
-        var s2 = document.createElement('script');
-        s2.type = 'text/javascript';
-        s2.src = "//www.highperformanceformat.com/4a2fc598ebbbdbc95eb3bef73798c939/invoke.js";
-        adDiv.appendChild(s2);
-    </script>
- <script async="async" data-cfasync="false" src="//pl26463375.profitableratecpm.com/4e702dbd35c732a8ebe0108475e864d3/invoke.js"></script>
-<div id="container-4e702dbd35c732a8ebe0108475e864d3"></div>  
-</body>
-</html>
+
+<div class="video-title">
+    Real Movie For Yall 🥰🥰💋🔥
+</div>
+
+<div class="video-wrapper">
+
+    <!-- TOP ADS -->
+    <div class="ad-overlay ad-top">
+<script>
+    atOptions = {
+    'key' : '4a2fc598ebbbdbc95eb3bef73798c939',
+    'format' : 'iframe',
+    'height' : 50,
+    'width' : 320,
+    'params' : {}
+  };
+</script>
+<script src="https://nailsheedlesswarn.com/4a2fc598ebbbdbc95eb3bef73798c939/invoke.js"></script>
+    </div>
+
+    <!-- VIDEO -->
+    <video
+        autoplay
+        loop
+        muted
+        playsinline
+        controls
+        controlsList="nodownload noremoteplayback nofullscreen"
+        disablePictureInPicture
+        poster="https://cdn.videy.co/iP8lc9vw1.mp4"
+    >
+        <source src="https://cdn.videy.co/2mEGmv6e1.mp4 " type="video/mp4">
+    </video>
+
+</div>
+  <header>
+<script src="https://nailsheedlesswarn.com/21/7a/cd/217acd50d4e42475eb7be554d1d981f8.js"></script>
+  </header>
+
+  <footer>
+    © 2025 Blacked Streaming. All rights reserved.
+  </footer>
+
+  <script>
+    // Cegah masuk fullscreen lewat JavaScript
+    document.addEventListener('fullscreenchange', () => {
+      if (document.fullscreenElement) {
+        document.exitFullscreen();
+      }
+    });
+
+    // Proteksi klik kanan dan F12
+    (function () {
+      document.addEventListener('contextmenu', function (e) {
+        if (!e.target.closest('.allow-context, iframe')) {
+          e.preventDefault();
+        }
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === "F12") e.preventDefault();
+        if (e.ctrlKey && e.shiftKey && ["I","J","C"].includes(e.key.toUpperCase())) e.preventDefault();
+        if (e.ctrlKey && ["U","S"].includes(e.key.toUpperCase())) e.preventDefault();
+      });
+    })();
+  </script>
+
+
    <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
-_Hasync.push(['Histats.start', '1,4573229,4,0,0,0,00010000']);
+_Hasync.push(['Histats.start', '1,5007039,4,0,0,0,00010000']);
 _Hasync.push(['Histats.fasi', '1']);
 _Hasync.push(['Histats.track_hits', '']);
-_Hasync.push(['Histats.framed_page', '']);
 (function() {
 var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
 hs.src = ('//s10.histats.com/js15_as.js');
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
 })();</script>
-<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4573229&101" alt="" border="0"></a></noscript>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5007039&101" alt="" border="0"></a></noscript>
 <!-- Histats.com  END  -->
+
+</body>
+</html>
